@@ -1,0 +1,48 @@
+body
+{
+    margin:0px;
+    padding: 0px;
+    background-color: rgb(250, 244, 244);
+}
+ul
+{
+    margin:0px;
+    padding: 0px;
+}
+.header
+{
+    background:url(../image/home-constructor.png);
+    min-height:500px;
+    position: relative;
+}
+.header .header-overlay
+{
+    position: absolute;;
+    top:0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color:rgba(240,186,16,0.8);              
+}
+
+.top-social-bar ul li
+{
+   list-style-type: none;
+   display:inline-block;
+   padding: 8px;
+   
+}
+.top-social-left ul li
+{
+    float: left;
+}
+.top-social-right ul li
+{
+    float:right;
+}
+.container
+{
+    height:400px;
+    background-color:rgb(42, 214, 200);
+    margin:8px auto;
+}
